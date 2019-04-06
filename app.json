@@ -1,0 +1,22 @@
+{
+	"name": "Proxy Localhost",
+	"description": "Spin up a reverse proxy to your localhost quickly on Heroku",
+	"keywords": [
+		"reverse proxy",
+		"nginx",
+		"static ip localhost",
+		"dynamic ip"
+	],
+	"repository": "https://github.com/suryatmodulus/heroku-proxy-localhost",
+	"buildpacks": [
+		{
+			"url": "http://github.com/leafo/heroku-buildpack-lua.git"
+		}
+	],
+	"env": {
+		"LOCAL_SERVER": {
+			"description": "Public IP Address of your Router with PORT number (Ex: http://122.141.133.122:3000)"
+		}
+	},
+	"stack": "heroku-18"
+}
