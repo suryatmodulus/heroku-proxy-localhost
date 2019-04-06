@@ -1,5 +1,5 @@
 {
-	"name": "Proxy Localhost",
+	"name": "Reverse Proxy to Localhost",
 	"description": "Spin up a reverse proxy to your localhost quickly on Heroku",
 	"keywords": [
 		"reverse proxy",
@@ -10,7 +10,7 @@
 	"repository": "https://github.com/suryatmodulus/heroku-proxy-localhost",
 	"buildpacks": [
 		{
-			"url": "http://github.com/leafo/heroku-buildpack-lua.git"
+			"url": "heroku/lua"
 		}
 	],
 	"env": {
