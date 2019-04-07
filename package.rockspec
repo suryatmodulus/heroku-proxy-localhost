@@ -1,3 +1,3 @@
 dependencies = {
-  "https://raw.github.com/suryatmodulus/heroku16-openresty/master/heroku16-openresty.rockspec"
+  "https://raw.github.com/suryatmodulus/heroku-openresty/master/heroku-openresty-1.5.11.1-1.rockspec"
 }
