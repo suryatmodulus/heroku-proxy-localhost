@@ -10,7 +10,7 @@
 	"repository": "https://github.com/suryatmodulus/heroku-proxy-localhost",
 	"buildpacks": [
 		{
-			"url": "https://github.com/geoffleyland/heroku-buildpack-openresty.git"
+			"url": "http://github.com/leafo/heroku-buildpack-lua.git"
 		}
 	],
 	"env": {
