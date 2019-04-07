@@ -1,4 +1,4 @@
-# Reverse Proxy Localhost on Heroku
+# Reverse Proxy Heroku to your Localhost
 
 Run a reverse proxy using nginx on Heroku.
 
