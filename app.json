@@ -14,7 +14,7 @@
 		}
 	],
 	"env": {
-		"UPSTREAM_SERVER": {
+		"LOCAL_SERVER": {
 			"description": "Public IP Address of your Router with PORT number (Ex: http://122.141.133.122:3000)"
 		}
 	},
